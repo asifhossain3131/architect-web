@@ -397,6 +397,25 @@ padding: 35px 400px;
  .fact-items{
     flex-direction: column;
  }
+ .fact-container{
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+.experience-feature-container{
+    width: 100%;
+    margin-left: 0;
+}
+.experience-feature-info{width: 100%;}
+.experience-feature-title{width: 100%;}
+.feature-items{width: 100%;}
+
+.feature-item-title, .feature-item-description{
+    width: 100%;
+ }
+ .project{
+    width: 100%;
+ }
  .sponsor-head{
     width: 100%;
 }
@@ -417,16 +436,5 @@ padding: 35px 400px;
     padding: 0;
     margin: 0;
 }
-.fact-container{
-    position: relative;
-    left: 0;
-    width: 100%;
+
 }
-.experience-feature-container{
-    width: 100%;
-    margin-left: 0;
-}
-.experience-feature-info{width: 100%;}
-.experience-feature-title{width: 100%;}
-.feature-items{width: 100%;}
- }
