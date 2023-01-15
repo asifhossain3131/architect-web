@@ -345,7 +345,18 @@ padding: 35px 400px;
     }
     .exploring{
         margin: 20px 0;
-        max-width: 576px;
+        width: 100%;
+    }
+    .exploring-title{
+        width: 100%;
+        text-align: left;
+    }
+    .exploring-details{
+        width: 100%;
+        text-align: left;
+    }
+    .btn-primary{
+        text-align: left;
     }
     ul{
         flex-direction: column;
@@ -353,6 +364,10 @@ padding: 35px 400px;
   .feature-container{
     flex-direction: column;
     margin: 0 auto;
+    gap: 10px;
+  }
+  .feature-photos img{
+    width: 100%;
   }
     .feature-photos{
         grid-template-columns: repeat(1,1fr);
@@ -411,4 +426,7 @@ padding: 35px 400px;
     width: 100%;
     margin-left: 0;
 }
+.experience-feature-info{width: 100%;}
+.experience-feature-title{width: 100%;}
+.feature-items{width: 100%;}
  }
